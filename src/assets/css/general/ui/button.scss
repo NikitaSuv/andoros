@@ -1,0 +1,31 @@
+&.button {
+	user-select: none;
+	cursor: pointer;
+	background: none;
+	border: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	@include general-transition;
+}
+
+&.style-d {
+	color: #3c9487;	
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	font-family: 'Noto Serif', serif;
+	border-radius: 6px;
+	border: 2px solid #3c9487;
+	background-color: #ffffff;
+	padding: 16px 85px;
+	@include media-breakpoint-down(md) {
+		padding: 16px 31px;
+	}	
+
+	&:hover {
+		background-color: #3c9487;
+		color: #ffffff;	
+	}
+}
+

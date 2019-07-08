@@ -1,0 +1,53 @@
+& {
+    &.style-d {
+        .title {
+            color: #000000;
+            font-family: 'Noto Serif', serif;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 24px;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            color: #000000;
+            font-family: 'Noto Serif', serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 2.8px;
+        }
+    }
+
+    &.style-alt {
+
+
+        &.desc {
+            color: #888888;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+            font-family: 'Noto Serif', serif;
+          
+        }
+        &-color {
+            color: #ffffff;
+        }
+
+        .subtitle-2 {
+            color: #000000;
+            font-family: 'Noto Serif', serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+        }
+
+        .articl-desc {
+            color: #555555;
+            font-family: 'Noto Serif', serif;
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+    }
+}

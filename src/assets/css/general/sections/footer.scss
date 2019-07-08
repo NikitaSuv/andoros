@@ -1,0 +1,79 @@
+&.footer {
+    .section-bg {
+        background-color: #3c9487;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+
+    .section-social {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #fff;
+
+        @include media-breakpoint-down(md) {
+            flex-direction: column;
+        }
+
+        img {
+            @include media-breakpoint-down(md) {
+                padding-top: 10px;
+            }
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            @include media-breakpoint-down(md) {
+                flex-direction: column;
+            }
+
+            .desc {
+                padding: 46px 0;
+                padding-left: 18px;
+            }
+        }
+
+        .social-buttom {
+            display: flex;
+            align-items: center;
+
+            i {
+                font-size: 24px;
+                color: #ffffff;
+                margin-right: 14px;
+            }
+
+            .desc {
+                padding-right: 18px;
+            }
+        }
+    }
+
+    .section-copyright {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 46px 0;
+
+        @include media-breakpoint-down(md) {
+            flex-direction: column;
+        }
+
+        a {
+            color: #ffffff;
+            font-family: "Hira Kaku Pro N - W 3";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            font-family: 'Noto Serif', serif;
+            margin-right: 30px;
+
+            @include media-breakpoint-down(md) {
+                display: none;
+            }
+        }
+    }
+
+}

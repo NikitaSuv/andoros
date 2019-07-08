@@ -1,0 +1,18 @@
+/**
+ * Section: Imports
+ */
+// External Imports
+// Libs Imports
+@import "vendor/bootstrap-config";
+@import "../../../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap');
+@import "../../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../../node_modules/slick-carousel/slick/slick-theme.scss";
+
+
+// General Imports
+@import "general/global/global";
+@import "general/ui/ui";
+@import "general/components/components";
+@import "general/sections/sections";
